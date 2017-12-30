@@ -5,7 +5,7 @@
 ## Login   <sachs_a@epitech.net>
 ##
 ## Started on  Fri Mar 31 20:18:01 2017 Alexandre Sachs
-## Last update Jan Apr 2 22:48:01 2017
+## Last update Sat Dec 30 18:38:42 2017 Sachs Alexandre
 ##
 
 CC		= gcc
@@ -53,7 +53,7 @@ OBJ_LIB		= $(SRC_LIB:.c=.o)
 CFLAGS		+= -I ./include/
 CFLAGS		+= -W -Wall -Wextra -Werror
 
-LDFLAGS		+= -lc_graph_prog_full -lm -L./lib/my -lmy
+LDFLAGS		+= -lc_graph_prog -lm -L./lib/my -lmy
 
 NAME_BIN	= ./scroller
 
