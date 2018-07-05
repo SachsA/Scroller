@@ -53,7 +53,7 @@ OBJ_LIB		= $(SRC_LIB:.c=.o)
 CFLAGS		+= -I ./include/
 CFLAGS		+= -W -Wall -Wextra -Werror
 
-LDFLAGS		+= -lc_graph_prog -lm -L./lib/my -lmy
+LDFLAGS		+= -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio -lm -L./lib/my -lmy
 
 NAME_BIN	= ./scroller
 
