@@ -1,24 +1,22 @@
-# scroller
-Epitech, first year rush graphic in c with the CSFML.
+# Scroller
 
-Goal of the project ==> make a scroller with different effect !
+### Goal
+###### The project : make a scroller with different effects !
 
-To compile : make.
+### Program compilation and launch:
+  ```sh
+        make
+```
+  ```sh
+        ./scroller text
+        ./srcoller thick
+        ./scroller mask
+        ./scroller pokemon
+        ./scroller slider
+        ./scroller stars
+```
 
-To recompile the project : make re.
-
-To clean all : make fclean.
-
-To use it : 
-              ./scroller text
-              ./srcoller thick
-              ./scroller mask
-              ./scroller pokemon
-              ./scroller slider
-              ./scroller stars
-
-Group that make the project :
-Alexandre Sachs.
-Kellian Cpierre.
-Thomas Lombard.
-(All in Epitech Bordeaux)
+#### Project realised by:
+- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Kellian Cipierre : [kellian.cipierre@epitech.eu](https://github.com/K6PIR)**
+- **Thomas Lombard : [thomas.lombard@epitech.eu](https://github.com/Deafter)**
